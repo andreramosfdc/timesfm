@@ -131,6 +131,7 @@ class TimesFmCheckpoint:
   type: Any = None
   step: int | None = None
   local_dir: str | None = None
+  cache_dir: str | None = None
 
 
 class TimesFmBase:
